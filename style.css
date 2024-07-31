@@ -25,7 +25,7 @@ body {
     text-align: center;
     padding: 20px;
     border-radius: 10px;
-    border: 3px solid greenyellow;
+    border: 3px solid rgb(93, 9, 150);
 }
 
 h1, .caixa-perguntas, .caixa-resultado{
@@ -84,7 +84,7 @@ button:hover {
   width: 40px;
   height: 5px;
   display: block;
-  background: rgb(105, 165, 26);
+  background: rgb(106, 211, 202);
   border-radius: 3px;
   margin: 0 auto;
   z-index: 1;
@@ -97,7 +97,7 @@ button:hover {
   width: 40px;
   height: 4.5px;
   display: block;
-  background: rgb(105, 165, 26);
+  background: rgb(10, 184, 126);
   border-radius: 3px;
 }
 
@@ -112,7 +112,7 @@ button:hover {
 .checkbox:hover + .container,
 .checkbox:hover + .container::before,
 .checkbox:hover + .container::after {
-  background: rgb(105, 165, 26);
+  background: rgb(3, 86, 88);
   transition: all 0.3s ease;
 }
 
@@ -132,8 +132,8 @@ button:hover {
 .menu__item a {
   display: block;
   line-height: 80px;
-  background: #e4eae7;
-  box-shadow: -5px -5px 7px #dccccc73, 3px 3px 5px rgba(94, 104, 121, 0.671);
+  background: #8d918f;
+  box-shadow: -5px -5px 7px #8f8a8a73, 3px 3px 5px rgba(96, 129, 196, 0.671);
   text-align: center;
   text-decoration: none;
   font-size: 36px;
@@ -143,7 +143,7 @@ button:hover {
 
 .menu__item a:hover {
   box-shadow: inset -3px -3px 7px #ffffff73,
-    inset 3px 3px 5px rgba(94, 104, 121, 0.671);
+    inset 3px 3px 5px rgba(54, 99, 177, 0.671);
 }
 
 .checkbox:checked + .container::before,
@@ -195,32 +195,32 @@ button:hover {
 
 .menu__item:nth-child(1) a {
   transform: rotate(0);
-  color: #d6492f;
+  color: #6728dd;
 }
 
 .menu__item:nth-child(2) a {
   transform: rotate(-60deg);
-  color: #395794;
+  color: #7a33b4;
 }
 
 .menu__item:nth-child(3) a {
   transform: rotate(-120deg);
-  color: #f80000c4;
+  color: #cc2070c4;
 }
 
 .menu__item:nth-child(4) a {
   transform: rotate(-180deg);
-  color: #2867b2;
+  color: #e20ed8;
 }
 
 .menu__item:nth-child(5) a {
   transform: rotate(-240deg);
-  color: #1da1f2;
+  color: #c01df2;
 }
 
 footer .menu__item:nth-child(6) a {
   transform: rotate(-300deg);
-  color: #e1306c;
+  color: #e62867;
 }
 
 h2{
@@ -231,6 +231,6 @@ h1{
 }
 
 h2:hover {
-  color: rgb(96, 102, 127); 
+  color: rgb(37, 76, 233); 
   font-weight: bold;
 }
