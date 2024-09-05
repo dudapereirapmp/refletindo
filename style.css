@@ -5,7 +5,7 @@
     --cor-principal: #0B0D20;
     --cor-secundaria: #212333;
     --cor-destaque: #2BDEFD;
-    --cor-texto: #D7F9FF;
+    --cor-texto: #000000;
 }
   
 body {
@@ -25,7 +25,7 @@ body {
     text-align: center;
     padding: 20px;
     border-radius: 10px;
-    border: 3px solid greenyellow;
+    border: 3px solid rgb(41, 0, 189);
 }
 
 h1, .caixa-perguntas, .caixa-resultado {
@@ -84,7 +84,7 @@ button:hover {
   width: 40px;
   height: 5px;
   display: block;
-  background: rgb(105, 165, 26);
+  background: rgb(4, 47, 141);
   border-radius: 3px;
   margin: 0 auto;
   z-index: 1;
@@ -97,7 +97,7 @@ button:hover {
   width: 40px;
   height: 4.5px;
   display: block;
-  background: rgb(105, 165, 26);
+  background: rgb(5, 9, 145);
   border-radius: 3px;
 }
 
@@ -112,7 +112,7 @@ button:hover {
 .checkbox:hover + .container,
 .checkbox:hover + .container::before,
 .checkbox:hover + .container::after {
-  background: rgb(105, 165, 26);
+  background: rgb(5, 43, 105);
   transition: all 0.3s ease;
 }
 
@@ -231,6 +231,6 @@ h1{
 }
 
 h2:hover {
-  color: rgb(96, 102, 127); 
+  color: rgb(246, 247, 253); 
   font-weight: bold;
 }
